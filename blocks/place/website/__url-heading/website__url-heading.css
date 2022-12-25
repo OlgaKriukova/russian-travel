@@ -30,7 +30,7 @@
   .website__url-heading {
     margin-top: 0;
   }
-}
-.website__url-heading:first-child {
-  margin-top: 0;
+  .website__url-heading:first-child {
+    margin-top: 0;
+  }
 }
