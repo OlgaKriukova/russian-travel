@@ -1,0 +1,22 @@
+.header {
+  margin: 0 auto;
+  padding-top: 28px;
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 96px);
+  min-height: 52px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    min-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    min-width: calc(100% - 32px);
+    padding-top: 16px;
+  }
+}

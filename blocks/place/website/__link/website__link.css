@@ -1,0 +1,29 @@
+.website__link {
+  margin: 0;
+  padding: 0;
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  text-decoration-line: underline;
+  color: #fff;
+}
+
+.website__link:hover {
+  filter: opacity(80%);
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+  .website__link {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,36 @@
+.website__url-heading {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+}
+
+.website__url-heading:first-child {
+  margin-top: 106px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .website__url-heading {
+    margin-top: 73px;
+  }
+
+  .website__url-heading:first-child {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .website__url-heading {
+    margin-top: 0;
+  }
+}
+.website__url-heading:first-child {
+  margin-top: 0;
+}
