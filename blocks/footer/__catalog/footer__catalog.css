@@ -7,13 +7,6 @@
   padding-inline-start: 0;
 }
 
-@media (max-width: 1280px) {
-  .footer__catalog {
-    font-size: 16px;
-    line-height: 112%;
-  }
-}
-
 @media (max-width: 320px) {
   .footer__catalog {
     font-size: 24px;

@@ -9,14 +9,6 @@
   object-fit: contain;
 }
 
-@media (max-width: 1280px) {
-  .photo-grid {
-    grid-template-columns: repeat(4, fit-content(284px));
-    grid-template-rows: repeat(3, fit-content(213px));
-    gap: 16px;
-  }
-}
-
 @media (max-width: 1024px) {
   .photo-grid {
     grid-template-columns: repeat(3, fit-content(300px));
@@ -37,6 +29,5 @@
     margin-top: 0;
     grid-template-columns: fit-content(288px);
     grid-template-rows: repeat(12, fit-content(216px));
-    grid-column: 16px;
   }
 }

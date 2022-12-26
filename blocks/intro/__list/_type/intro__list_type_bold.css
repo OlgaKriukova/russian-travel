@@ -1,15 +1,4 @@
 .intro__list_type_bold {
   font-weight: 700;
-}
-
-@media (max-width: 1280px) {
-}
-
-@media (max-width: 1024px) {
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 320px) {
+  font-family: "Inter-Bold" Arial, sans-serif;
 }

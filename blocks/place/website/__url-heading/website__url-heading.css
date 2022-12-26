@@ -13,9 +13,6 @@
   margin-top: 106px;
 }
 
-@media (max-width: 1024px) {
-}
-
 @media (max-width: 768px) {
   .website__url-heading {
     margin-top: 73px;
