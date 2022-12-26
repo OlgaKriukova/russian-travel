@@ -4,7 +4,7 @@
   grid-area: title;
   max-width: 460px;
   max-height: 76px;
-  font-family: "Inter-Bold" Arial, sans-serif;
+  font-family: "Inter-Bold", Arial, sans-serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
