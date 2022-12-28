@@ -1,7 +1,6 @@
 .cover__title {
   margin: 0;
   padding: 0;
-  margin-top: 245px;
   max-width: 560px;
   align-self: center;
   font-family: "Inter-Black", Arial, sans-serif;
@@ -11,21 +10,8 @@
   color: #fff;
 }
 
-@media (max-width: 1024px) {
-  .cover__title {
-    margin-top: 195px;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover__title {
-    margin-top: 115px;
-  }
-}
-
 @media (max-width: 320px) {
   .cover__title {
-    margin-top: 33px;
     font-size: 32px;
     line-height: 109%;
   }

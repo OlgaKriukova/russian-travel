@@ -1,9 +1,12 @@
 .intro {
-  margin: 92px 442px 0 148px;
+  margin: 0 auto;
+  margin-top: 92px;
+  margin-left: 148px;
+  /* margin: 92px 442px 0 148px; */
   display: flex;
   flex-direction: column;
-  max-width: 690px;
-  box-sizing: border-box;
+  /* max-width: 690px; */
+  /* box-sizing: border-box; */
 }
 
 @media (max-width: 1024px) {
