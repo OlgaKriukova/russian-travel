@@ -3,7 +3,7 @@
   padding: 0;
   margin-top: 32px;
   max-width: 640px;
-  max-height: 72px;
+  /* max-height: 72px; */
   text-align: center;
   font-weight: 400;
   font-size: 30px;
@@ -14,7 +14,7 @@
 @media (max-width: 320px) {
   .lead__subtitle {
     max-width: 288px;
-    max-height: 40px;
+    /* max-height: 40px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;

@@ -29,9 +29,23 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 520px) {
   .place {
     margin: 0 auto;
+    grid-template-columns: fit-content(340px);
+    grid-template-areas:
+      "title"
+      "url"
+      "image"
+      "paragraph"
+      "paragraph";
+    row-gap: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+    margin: 0;
     grid-template-columns: fit-content(288px);
     grid-template-areas:
       "title"

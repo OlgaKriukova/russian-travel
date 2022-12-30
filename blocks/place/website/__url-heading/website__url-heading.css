@@ -7,19 +7,3 @@
   letter-spacing: 2px;
   color: #aaaaaa;
 }
-
-/* @media (max-width: 768px) {
-  .website__url-heading {
-    margin-top: 73px;
-  }
-
-  .website__url-heading:first-child {
-    margin-top: 48px;
-  }
-}
-
-@media (max-width: 320px) {
-  .website__url-heading {
-    margin-top: 0;
-  }
-} */

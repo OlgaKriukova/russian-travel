@@ -1,6 +1,5 @@
 .place__image {
   margin: 0;
-  max-width: 460px;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -8,23 +7,10 @@
   grid-area: image;
 }
 
-@media (max-width: 1024px) {
-  .place__image {
-    max-width: 440px;
-  }
-}
-
-@media (max-width: 768px) {
-  .place__image {
-    max-width: 340px;
-  }
-}
-
 @media (max-width: 320px) {
   .place__image {
-    /* max-width: 288px; */
     width: 110%;
     margin-top: 0;
-    margin-left: -16px;
+    /* margin-left: -16px; */
   }
 }
