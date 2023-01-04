@@ -5,8 +5,15 @@
   text-decoration: none;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .footer__list {
+    margin-bottom: 32px;
     float: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__list:last-child {
+    margin-bottom: 0;
   }
 }

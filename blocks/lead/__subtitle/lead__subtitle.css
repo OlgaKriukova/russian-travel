@@ -3,19 +3,25 @@
   padding: 0;
   margin-top: 32px;
   max-width: 640px;
-  /* max-height: 72px; */
   text-align: center;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 120%;
   color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 500px) {
+  .lead__subtitle {
+    margin-left: 22px;
+    margin-right: 22px;
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 320px) {
   .lead__subtitle {
+    margin-top: 16px;
     max-width: 288px;
-    /* max-height: 40px; */
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
   }

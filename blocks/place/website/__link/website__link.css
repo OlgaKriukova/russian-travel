@@ -6,11 +6,12 @@
   font-size: 18px;
   line-height: 122%;
   text-decoration-line: underline;
+  transition: opacity 0.5s;
   color: #fff;
 }
 
 .website__link:hover {
-  filter: opacity(80%);
+  opacity: 0.8;
 }
 
 @media (max-width: 320px) {

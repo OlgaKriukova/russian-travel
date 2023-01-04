@@ -2,8 +2,21 @@
   grid-area: paragraph;
 }
 
+@media (max-width: 840px) {
+  .place__paragraphs {
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 719px) {
+  .place__paragraphs {
+    margin-left: 24px;
+  }
+}
+
 @media (max-width: 320px) {
   .place__paragraphs {
     margin-left: 16px;
+    margin-right: 16px;
   }
 }

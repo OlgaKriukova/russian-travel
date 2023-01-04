@@ -1,4 +1,5 @@
 .footer__link {
+  transition: opacity 0.5s;
   text-decoration: none;
   color: #fff;
 }

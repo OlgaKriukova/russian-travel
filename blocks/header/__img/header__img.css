@@ -1,0 +1,9 @@
+.header__img {
+  width: 100%;
+}
+
+@media (max-width: 320px) {
+  .header__img {
+    width: 80.5%;
+  }
+}

@@ -7,9 +7,20 @@
   padding-inline-start: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 700px) {
+  .footer__catalog {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
   .footer__catalog {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__catalog {
     line-height: 100%;
   }
 }
