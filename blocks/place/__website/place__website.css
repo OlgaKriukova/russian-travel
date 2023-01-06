@@ -3,12 +3,6 @@
   justify-self: start;
 }
 
-@media (max-width: 840px) {
-  .place__website {
-    margin-right: 24px;
-  }
-}
-
 @media (max-width: 719px) {
   .place__website {
     margin-left: 24px;

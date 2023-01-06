@@ -7,14 +7,8 @@
   grid-area: image;
 }
 
-@media (max-width: 719px) {
+@media (max-width: 767px) {
   .place__image {
     margin-top: 0px;
-  }
-}
-
-@media (max-width: 320px) {
-  .place__image {
-    width: 105%;
   }
 }

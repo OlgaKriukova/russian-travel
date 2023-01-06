@@ -1,16 +1,13 @@
 .place__paragraphs {
   grid-area: paragraph;
+  margin-top: 48px;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 767px) {
   .place__paragraphs {
-    margin-right: 24px;
-  }
-}
-
-@media (max-width: 719px) {
-  .place__paragraphs {
+    margin-top: 0;
     margin-left: 24px;
+    margin-right: 24px;
   }
 }
 

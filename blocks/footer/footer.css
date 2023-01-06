@@ -13,15 +13,16 @@
   }
 }
 
-@media (max-width: 560px) {
-  .footer {
-    margin-bottom: 0;
-  }
-}
-
 @media (max-width: 620px) {
   .footer {
     flex-direction: column;
     margin-top: 64px;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer {
+    margin-bottom: 0;
+    width: calc(100% - 16px * 2);
   }
 }
